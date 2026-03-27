@@ -55,7 +55,7 @@ export default function SuperLightApp() {
       {!isFull && (
         <div className="w-full p-6 flex justify-between items-center z-10">
           <div className="bg-white/80 px-4 py-2 rounded-full backdrop-blur font-bold text-sm flex items-center gap-2">
-            <Sparkles size={16} className="text-yellow-500"/> 柔光灯 Pro
+            <Sparkles size={16} className="text-yellow-500"/> 陈子豪的补光灯
           </div>
           <button onClick={() => setIsFull(true)} className="p-3 bg-white/80 rounded-full backdrop-blur">
             <Palette size={20} />
