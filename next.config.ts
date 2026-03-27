@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* 这里暂时保持默认，让 Netlify 自动识别 Next.js 项目 */
 };
 
 export default nextConfig;
